@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:id="@+id/taskk1"
+        android:padding="10dp"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Go to Task 1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/red"
+        android:padding="10dp"
+        android:layout_below="@id/taskk1"
+        android:id="@+id/taskk2"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="Go to Task 2"/>
+
+</RelativeLayout>
